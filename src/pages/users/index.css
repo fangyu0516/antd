@@ -1,0 +1,15 @@
+.phoneshake {
+  animation: mymove 0.3s infinite;
+  animation-timing-function: cubic-bezier(0.1, 1, 1, 0.1);
+}
+@keyframes mymove {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(35deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
